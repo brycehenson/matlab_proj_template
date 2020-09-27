@@ -1,5 +1,5 @@
 # Matlab_project_template
-**[Bryce M. Henson](https://github.com/brycehenson), other authors **  
+**[Bryce M. Henson](https://github.com/brycehenson), other authors**  
 A template for making a matlab project in git. Core BEC library already included as submodule.
 **Status:** Consider inducing a status comment on the top explaining how ready this code is to use in other projects/works. eg This Code is **ready for use in other projects**. Unit Testing is implemented for **most** functions. Integration/system testing is **not** implemented.
 
