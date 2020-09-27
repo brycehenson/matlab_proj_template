@@ -23,6 +23,11 @@ git submodule update --init --recursive --remote --merge
 
 ## To Do
 some steps for working on the project.
+-[ ] unit tests
+-[ ] implementation tests
+-[ ] cool logo
+-[ ] some figures showing schematicaly how the code operates
+ 
 
 
 ## Contributions  
