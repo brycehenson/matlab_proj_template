@@ -1,5 +1,5 @@
 # Matlab_project_template
-**[Bryce M. Henson](https://github.com/brycehenson), other authors **  
+**[Bryce M. Henson](https://github.com/brycehenson), other authors**  
 A template for making a matlab project in git. Core BEC library already included as submodule.
 **Status:** Consider inducing a status comment on the top explaining how ready this code is to use in other projects/works. eg This Code is **ready for use in other projects**. Unit Testing is implemented for **most** functions. Integration/system testing is **not** implemented.
 
@@ -10,12 +10,23 @@ A template for making a matlab project in git. Core BEC library already included
 
 
 ## Install 
+Github does not copy the submodules when you hit the make git with template button. To get arround this
+- make a repo using this template
+- clone this repo with
+```
+ git clone --recurse-submodules -j8 https://github.com/brycehenson/matlab_proj_template.git
+```
+- then make this clone of the template repo point to your new project 
+```
+ git remote set-url origin https://github.com/brycehenson/my_new_project.git
+ ```
+ - then pull the new project into this local git
+ ```
+ git pull --allow-unrelated-histories
+```
+and then push.
 
-As a submodule (most common usage)
-```
-git clone --recurse-submodules -j8 https://github.com/brycehenson/matlab_proj_template.git
-```
-then to update all the submodules
+If you need to update sumbodules at any point
 ```
 git submodule update --init --recursive --remote --merge
 ```
